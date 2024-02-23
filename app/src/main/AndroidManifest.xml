@@ -13,13 +13,18 @@
         android:theme="@style/Theme.Encuestas"
         tools:targetApi="31">
         <activity
-            android:name=".Inicio"
+            android:name=".MenuPrincipal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Inicio"
+            android:exported="true">
+
         </activity>
     </application>
 
